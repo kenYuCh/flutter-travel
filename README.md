@@ -1,16 +1,22 @@
-# myapp20220914
+# travel Taiwan
 
-A new Flutter project.
+- A new Flutter side project that learn design pattern.
+- flutter that learns to design patterns and API、SQL、StateManagement.
+- All images are quoted.
+- The shop databases on the Fake Store API website, can fetch data through API.
 
-## Getting Started
+### Google Map / Firebase auth / Google OAuth2.0
 
-This project is a starting point for a Flutter application.
+<p float="left">
+<img style="float: right;" src="Screenshot_1664091140.png" width="200">
 
-A few resources to get you started if this is your first Flutter project:
+<img style="float: right;" src="Screenshot_1664091148.png" width="200">
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<img style="float: right;" src="Screenshot_1664091166.png" width="200">
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img style="float: right;" src="Screenshot_1664091195.png" width="200">
+<img style="float: right;" src="Screenshot_1664091209.png" width="200">
+
+
+</p>
+

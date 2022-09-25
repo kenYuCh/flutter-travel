@@ -39,18 +39,14 @@ class TravelController with ChangeNotifier, DiagnosticableTreeMixin {
 
   void setAdd(TravelModel catalogs) {
     print("setAdd...");
-
-    final result = travelFavorite.where((items) {
+    final result = _travelFavorite.where((items) {
       final travelID = items.scenicSpotId.toString();
       final input = catalogs.scenicSpotId.toString();
       return travelID.contains(input);
     }).toList();
-    print(result.length);
-
     // 若沒有找到資料就會加入此catalog
     result.isEmpty == true ? _travelFavorite.add(catalogs) : null;
-    print(jsonEncode(_travelFavorite.toList()));
-    // _travelFavorite.add(catalogs);
+    print(jsonEncode(catalogs.toJson()));
     notifyListeners();
   }
 

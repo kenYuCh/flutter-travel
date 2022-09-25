@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:myapp20220914/components/googleLoginAuth.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -60,11 +61,13 @@ class _LoginPageState extends State<LoginPage> {
             ),
             GestureDetector(
               onTap: () {
-                signIn();
+                // signIn();
+                AuthService().signInWithGoogle();
               },
-              child: const Icon(
-                Icons.login,
-                color: Colors.black,
+              child: Image.asset(
+                "assets/images/google.png",
+                width: 100.0,
+                height: 100.0,
               ),
             )
           ],

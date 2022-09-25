@@ -74,6 +74,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      restorationScopeId: 'root',
       theme: AppTheme().materialTheme,
       debugShowCheckedModeBanner: false,
       initialRoute: '/',
